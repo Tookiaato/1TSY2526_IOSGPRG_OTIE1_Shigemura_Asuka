@@ -1,0 +1,2 @@
+C:\Users\user\Desktop\IOSPROG\1TSY2526_IOSGPRG_OTIE1_Shigemura_Asuka\Tower Slash\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\user\Desktop\IOSPROG\1TSY2526_IOSGPRG_OTIE1_Shigemura_Asuka\Tower Slash\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt

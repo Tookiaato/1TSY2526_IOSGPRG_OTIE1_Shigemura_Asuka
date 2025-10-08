@@ -111,18 +111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLives: 3
-  isDead: 0
-  enemyInRange: 0
+  maxPlayerLives: 3
   gravityToWall: 300
-  rb: {fileID: 0}
-  wrongDirection: 0
-  slashDir: {fileID: 5114664983716682791}
-  enemy: {fileID: 0}
-  wall: {fileID: 0}
-  powerUp: {fileID: 0}
-  dash: {fileID: 0}
-  circleCollider: {fileID: 0}
-  dashPointsIncrement: 0
 --- !u!61 &5114664983716682785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -282,7 +272,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5114664983716682792}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65d1d95a7bb2e114f883188c61dc2e64, type: 3}
   m_Name: 

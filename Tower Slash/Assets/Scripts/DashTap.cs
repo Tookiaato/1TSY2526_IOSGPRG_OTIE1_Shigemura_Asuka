@@ -11,6 +11,7 @@ public class DashTap : MonoBehaviour
 
     private GameManager game;
     private Player player;
+    private WallMovement wall;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class DashTap : MonoBehaviour
         if (game.chosen)
         {
             player = game.playerObj.GetComponent<Player>();
+            wall = game.wallObj.GetComponent<WallMovement>();
         }
 
         if (player == null)
@@ -64,6 +66,8 @@ public class DashTap : MonoBehaviour
         {
             player.CurrentEnemy.speed = 5;
         }
+
+        wall.scrollSpeed = 2.25f;
 
         if (player.DashComponent != null)
         {
