@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Milestone 2.unity
-    guid: f5521fce52e0aec4fae33e166da8fa63
+    path: Assets/Scenes/Final.unity
+    guid: 87a301381b939444588e037edc255e37
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

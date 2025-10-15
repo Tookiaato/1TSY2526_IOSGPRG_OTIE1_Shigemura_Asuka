@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    [HideInInspector] public static int score;
-
     [SerializeField] private TextMeshProUGUI playerLivesUI;
     [SerializeField] private GameObject slider;
     [SerializeField] private Slider dashGaugeSlider;
@@ -19,6 +17,8 @@ public class UIController : MonoBehaviour
     [SerializeField] private Button DashGaugeButton;
     [SerializeField] private GameObject chooseCharObject;
     [SerializeField] private GameObject gameObj;
+
+    public static int score;
 
     private CharacterSelect chooseChar;
     private Player player;
